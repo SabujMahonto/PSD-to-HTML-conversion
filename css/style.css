@@ -1,12 +1,19 @@
 /* ======================
     common style
  ======================== */
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,700&display=swap");
+
 *,
 ::after,
 ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9fbfc;
 }
 html {
   scroll-behavior: smooth;
@@ -22,4 +29,52 @@ a {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+/* ======================
+    header style
+ ======================== */
+header {
+  margin-top: 50px;
+}
+.inner_header {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.logo_area {
+  width: 120px;
+}
+.logo_area img {
+  width: 100%;
+}
+
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  padding: 0 18px;
+}
+.menu ul li a {
+  font-size: 16px;
+  line-height: 44px;
+  color: #242f51;
+  font-weight: 400;
+  transition: 0.3s;
+}
+.menu ul li a:hover {
+  color: red;
+}
+.trail_btn {
+  font-size: 16px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  width: 170px;
+  height: 57px;
+  outline: none;
+  border: none;
+  border-radius: 29px;
+  background-color: #2500f9;
 }
