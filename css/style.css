@@ -69,11 +69,11 @@ header {
   font-size: 20px;
   line-height: 44px;
   color: #ffffff;
-  font-weight: 700;
   text-align: center;
-  width: 200px;
   outline: none;
   border: none;
+  width: 170px;
+  height: 57px;
   border-radius: 29px;
   background-color: #2500f9;
 }
@@ -81,11 +81,14 @@ header {
 /* ======================
     banner style
  ======================== */
+#banner {
+  min-height: calc(100vh - 72px);
+}
+
 .inner_banner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  min-height: calc(100vh - 72px);
 }
 .contain_area {
 }
@@ -94,6 +97,8 @@ header {
   line-height: 28px;
   color: #242f51;
   font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 .contain_area h6 i {
 }
@@ -103,6 +108,7 @@ header {
   color: #242f51;
   font-weight: 600;
   max-width: 525px;
+  margin: 30px 0;
 }
 .contain_area p {
   font-size: 18px;
@@ -110,13 +116,21 @@ header {
   color: #616368;
   font-weight: 400;
   max-width: 480px;
+  margin-bottom: 30px;
 }
 .hero_btn_container {
 }
 .demo_btn {
+  font-size: 16px;
+  line-height: 44px;
+  color: #2500f9;
+  font-weight: 400;
+  border: 0;
+  outline: none;
+  background-color: transparent;
 }
 .banner_area {
-  max-width: 360px;
+  max-width: 300px;
 }
 .banner_area img {
   width: 100%;
