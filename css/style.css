@@ -66,14 +66,58 @@ header {
   color: red;
 }
 .trail_btn {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 44px;
   color: #ffffff;
   font-weight: 700;
   text-align: center;
-  width: 170px;
+  width: 200px;
   outline: none;
   border: none;
   border-radius: 29px;
   background-color: #2500f9;
+}
+
+/* ======================
+    banner style
+ ======================== */
+.inner_banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: calc(100vh - 72px);
+}
+.contain_area {
+}
+.contain_area h6 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #242f51;
+  font-weight: 400;
+}
+.contain_area h6 i {
+}
+.contain_area h1 {
+  font-size: 60px;
+  line-height: 75px;
+  color: #242f51;
+  font-weight: 600;
+  max-width: 525px;
+}
+.contain_area p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #616368;
+  font-weight: 400;
+  max-width: 480px;
+}
+.hero_btn_container {
+}
+.demo_btn {
+}
+.banner_area {
+  max-width: 360px;
+}
+.banner_area img {
+  width: 100%;
 }
